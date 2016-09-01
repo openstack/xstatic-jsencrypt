@@ -1,4 +1,4 @@
-/*! JSEncrypt v2.3.0 | https://npmcdn.com/jsencrypt@2.3.0/LICENSE.txt */
+/*! JSEncrypt v2.3.0 | https://unpkg.com/jsencrypt@2.3.0/LICENSE.txt */
 var JSEncryptExports = {};
 (function(exports) {
     // Copyright (c) 2005  Tom Wu
