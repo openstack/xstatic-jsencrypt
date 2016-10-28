@@ -1,8 +1,6 @@
 include README.txt
-recursive-include xstatic/pkg/jsencrypt *
-
+recursive-include xstatic *
 global-exclude *.pyc
 global-exclude *.pyo
 global-exclude *.orig
 global-exclude *.rej
-
