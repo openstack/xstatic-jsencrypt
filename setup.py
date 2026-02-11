@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 from xstatic.pkg import jsencrypt as xs
 
 # The README.txt file should be written in reST so that PyPI can use
@@ -17,8 +17,7 @@ setup(
     license=xs.LICENSE,
     url=xs.HOMEPAGE,
     platforms=xs.PLATFORMS,
-    packages=find_packages(),
-    namespace_packages=['xstatic', 'xstatic.pkg'],
+    packages=find_namespace_packages(),
     include_package_data=True,
     zip_safe=False,
     install_requires=[],

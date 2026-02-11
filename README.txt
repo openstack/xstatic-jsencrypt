@@ -1,5 +1,5 @@
 XStatic-JSEncrypt
---------------
+-----------------
 
 JSEncrypt JavaScript library packaged for setuptools (easy_install) / pip.
 
